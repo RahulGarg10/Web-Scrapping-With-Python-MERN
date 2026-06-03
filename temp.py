@@ -19,7 +19,7 @@ async def scrape_booking():
 
             query = 'New York'
             encoded_query = urllib.parse.quote(query)
-            url = f"https://www.booking.com/searchresults.html?ss={encoded_query}"
+            url = f"https://bookscape.com/search/{encoded_query}"
 
             # Navigate
             try:
